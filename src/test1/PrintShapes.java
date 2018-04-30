@@ -2,6 +2,10 @@ package test1;
 
 public class PrintShapes {
 	
+	/**
+	 * Prints out a square!
+	 * @param side size of square
+	 */
 	public static void printSquare(int side) {
 		for(int i = 0; i < side; i++) {
 			System.out.print("*");
